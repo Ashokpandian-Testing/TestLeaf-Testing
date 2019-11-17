@@ -14,6 +14,7 @@ public class EditPage_Test extends TestBase {
 //  }
 
 	
+	//,dependsOnMethods= {"Navi_ClickEdit"})
 	
   @Test(priority=0)
   public void Navi_ClickEdit() {	 
