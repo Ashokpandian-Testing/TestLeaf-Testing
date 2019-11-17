@@ -51,10 +51,20 @@ public class TestBase {
 	}
 	
 	@BeforeTest(alwaysRun=true)
-	public static void LaunchAppURL() {
+	@Parameters({"Application"})
+	public static void LaunchAppURL(@Optional("TestLeaf") String Key) {
+		
+		if(Key.equalsIgnoreCase("TestLeaf")) {
 		driver.get("http://www.leafground.com/home.html");
+		}
+		else if(Key.equalsIgnoreCase("guru99bank")) {
+			driver.get("http://demo.guru99.com/V1/index.php");
+		}
+		
 		driver.manage().window().maximize();
 	}
+	
+	
 	
 	
 	@AfterSuite(alwaysRun=true)

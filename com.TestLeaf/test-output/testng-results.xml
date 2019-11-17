@@ -1,120 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="14" passed="9">
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestLeafSuite" duration-ms="10426" started-at="2019-11-17T10:52:36Z" finished-at="2019-11-17T10:52:47Z">
+  <suite name="TestLeafSuite" duration-ms="17347" started-at="2019-11-17T15:54:20Z" finished-at="2019-11-17T15:54:37Z">
     <groups>
-      <group name="Check">
-        <method signature="EditPage_Test.test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@36b4cef0]" name="test05_DisabledCheck" class="TestCases.EditPage_Test"/>
-      </group> <!-- Check -->
-      <group name="Edit">
-        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@4232c52b]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@4232c52b]" name="test01_EmailAddress" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@4232c52b]" name="test02_AppendText" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test03_GetText()[pri:3, instance:TestCases.EditPage_Test@4232c52b]" name="test03_GetText" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@4232c52b]" name="test04_ClearMe" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@36b4cef0]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
-      </group> <!-- Edit -->
     </groups>
-    <test name="TestCases" duration-ms="6387" started-at="2019-11-17T10:52:36Z" finished-at="2019-11-17T10:52:43Z">
-      <class name="TestCases.EditPage_Test">
-        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:TestCases.EditPage_Test@4232c52b]" name="LaunchAppURL" is-config="true" duration-ms="4330" started-at="2019-11-17T10:52:36Z" finished-at="2019-11-17T10:52:41Z">
+    <test name="Guru99Bank" duration-ms="17347" started-at="2019-11-17T15:54:20Z" finished-at="2019-11-17T15:54:37Z">
+      <class name="TestCases.Guru99Bank_LoginPage_Test">
+        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="InitDriver" is-config="true" duration-ms="9764" started-at="2019-11-17T15:54:10Z" finished-at="2019-11-17T15:54:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@4232c52b]" name="Navi_ClickEdit" duration-ms="799" started-at="2019-11-17T10:52:41Z" finished-at="2019-11-17T10:52:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navi_ClickEdit -->
-        <test-method status="PASS" signature="test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@4232c52b]" name="test01_EmailAddress" duration-ms="264" started-at="2019-11-17T10:52:42Z" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:42Z">
+        </test-method> <!-- InitDriver -->
+        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="LaunchAppURL" is-config="true" duration-ms="6289" started-at="2019-11-17T15:54:20Z" finished-at="2019-11-17T15:54:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[as198184@gmail.com]]>
+                <![CDATA[guru99bank]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01_EmailAddress -->
-        <test-method status="PASS" signature="test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@4232c52b]" name="test02_AppendText" duration-ms="291" started-at="2019-11-17T10:52:42Z" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:42Z">
+        </test-method> <!-- LaunchAppURL -->
+        <test-method status="FAIL" signature="Login_Guru99Bank_ValidCheck(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="Login_Guru99Bank_ValidCheck" duration-ms="2235" started-at="2019-11-17T15:54:26Z" data-provider="logindata" finished-at="2019-11-17T15:54:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[-Text->]]>
+                <![CDATA[mngr233362]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[-Appended->]]>
+                <![CDATA[tAguqE8]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=78.0.3904.97): User is not valid
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:19.891Z'
+System info: host: 'LP-5CD8471223', ip: '100.103.205.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ASHOKP~1.S\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0aa78e0c70833458d51a18f0596706b2
+*** Element info: {Using=xpath, value=//a[@href="Managerhomepage.php"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=78.0.3904.97): User is not valid
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:19.891Z'
+System info: host: 'LP-5CD8471223', ip: '100.103.205.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ASHOKP~1.S\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0aa78e0c70833458d51a18f0596706b2
+*** Element info: {Using=xpath, value=//a[@href="Managerhomepage.php"]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at TestCases.Guru99Bank_LoginPage_Test.Login_Guru99Bank_ValidCheck(Guru99Bank_LoginPage_Test.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test02_AppendText -->
-        <test-method status="PASS" signature="test03_GetText()[pri:3, instance:TestCases.EditPage_Test@4232c52b]" name="test03_GetText" duration-ms="81" started-at="2019-11-17T10:52:42Z" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test03_GetText -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@4232c52b]" name="test04_ClearMe" duration-ms="239" started-at="2019-11-17T10:52:42Z" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:43Z">
+        </test-method> <!-- Login_Guru99Bank_ValidCheck -->
+        <test-method status="FAIL" signature="Login_Guru99Bank_ValidCheck(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="Login_Guru99Bank_ValidCheck" duration-ms="4055" started-at="2019-11-17T15:54:28Z" data-provider="logindata" finished-at="2019-11-17T15:54:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Ashok]]>
+                <![CDATA[mngr233361]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tAguqEu]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=78.0.3904.97): User is not valid
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:19.891Z'
+System info: host: 'LP-5CD8471223', ip: '100.103.205.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ASHOKP~1.S\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0aa78e0c70833458d51a18f0596706b2
+*** Element info: {Using=xpath, value=//a[@href="Managerhomepage.php"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=78.0.3904.97): User is not valid
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:19.891Z'
+System info: host: 'LP-5CD8471223', ip: '100.103.205.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ASHOKP~1.S\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0aa78e0c70833458d51a18f0596706b2
+*** Element info: {Using=xpath, value=//a[@href="Managerhomepage.php"]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at TestCases.Guru99Bank_LoginPage_Test.Login_Guru99Bank_ValidCheck(Guru99Bank_LoginPage_Test.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test04_ClearMe -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@4232c52b]" name="test04_ClearMe" duration-ms="172" started-at="2019-11-17T10:52:43Z" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:43Z">
+        </test-method> <!-- Login_Guru99Bank_ValidCheck -->
+        <test-method status="PASS" signature="Login_Guru99Bank_ValidCheck(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="Login_Guru99Bank_ValidCheck" duration-ms="4716" started-at="2019-11-17T15:54:33Z" data-provider="logindata" finished-at="2019-11-17T15:54:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Divya]]>
+                <![CDATA[mngr233361]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test04_ClearMe -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@4232c52b]" name="test04_ClearMe" duration-ms="141" started-at="2019-11-17T10:52:43Z" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:43Z">
-          <params>
-            <param index="0">
+            <param index="1">
               <value>
-                <![CDATA[Adhi]]>
+                <![CDATA[tAguqEg]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test04_ClearMe -->
-      </class> <!-- TestCases.EditPage_Test -->
-    </test> <!-- TestCases -->
-    <test name="Check Test" duration-ms="3951" started-at="2019-11-17T10:52:43Z" finished-at="2019-11-17T10:52:47Z">
-      <class name="TestCases.EditPage_Test">
-        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.EditPage_Test@36b4cef0]" name="InitDriver" is-config="true" duration-ms="9136" started-at="2019-11-17T10:52:27Z" finished-at="2019-11-17T10:52:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InitDriver -->
-        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:TestCases.EditPage_Test@36b4cef0]" name="LaunchAppURL" is-config="true" duration-ms="231" started-at="2019-11-17T10:52:43Z" finished-at="2019-11-17T10:52:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@36b4cef0]" name="Navi_ClickEdit" duration-ms="328" started-at="2019-11-17T10:52:43Z" finished-at="2019-11-17T10:52:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navi_ClickEdit -->
-        <test-method status="PASS" signature="test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@36b4cef0]" name="test05_DisabledCheck" duration-ms="3387" started-at="2019-11-17T10:52:44Z" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-17T10:52:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test05_DisabledCheck -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.EditPage_Test@36b4cef0]" name="quitDriver" is-config="true" duration-ms="1096" started-at="2019-11-17T10:52:47Z" finished-at="2019-11-17T10:52:48Z">
+        </test-method> <!-- Login_Guru99Bank_ValidCheck -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.Guru99Bank_LoginPage_Test@76f2b07d]" name="quitDriver" is-config="true" duration-ms="1181" started-at="2019-11-17T15:54:37Z" finished-at="2019-11-17T15:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- TestCases.EditPage_Test -->
-    </test> <!-- Check Test -->
+      </class> <!-- TestCases.Guru99Bank_LoginPage_Test -->
+    </test> <!-- Guru99Bank -->
   </suite> <!-- TestLeafSuite -->
 </testng-results>
