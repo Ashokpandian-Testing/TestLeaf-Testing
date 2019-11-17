@@ -23,7 +23,9 @@ public class TestBase {
 		
 		if(LoadConfigFile("Browser").equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", LoadConfigFile("ChromeDriverPath"));
-			driver = new ChromeDriver();			
+			driver = new ChromeDriver();		
+			
+			
 		}
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
