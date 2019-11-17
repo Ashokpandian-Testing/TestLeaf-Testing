@@ -18,7 +18,7 @@ public class TestBase {
 	
 	
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun=true)
 	public static WebDriver InitDriver() throws IOException {	
 		
 		if(LoadConfigFile("Browser").equalsIgnoreCase("chrome")) {
@@ -50,14 +50,14 @@ public class TestBase {
 		return temp;
 	}
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun=true)
 	public static void LaunchAppURL() {
 		driver.get("http://www.leafground.com/home.html");
 		driver.manage().window().maximize();
 	}
 	
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun=true)
 	public static void  quitDriver() {
 		driver.quit();
 	}

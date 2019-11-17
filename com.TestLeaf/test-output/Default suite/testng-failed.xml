@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="Firsttext" value="&quot;sample1&quot;"/>
+  <parameter name="Secondtext" value="&quot;sample2&quot;"/>
+  <parameter name="emailid" value="&quot;as198184@mygame.com&quot;"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="TestCases.EditPage_Test">
         <methods>
           <include name="Navi_ClickEdit"/>
+          <include name="test03_GetText"/>
+          <include name="test01_EmailAddress"/>
           <include name="quitDriver"/>
           <include name="test04_ClearMe"/>
+          <include name="test02_AppendText"/>
           <include name="InitDriver"/>
           <include name="LaunchAppURL"/>
+          <include name="test05_DisabledCheck"/>
         </methods>
       </class> <!-- TestCases.EditPage_Test -->
     </classes>

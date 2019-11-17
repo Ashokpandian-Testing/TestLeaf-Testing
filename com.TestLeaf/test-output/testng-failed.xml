@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestLeafSuite]">
+  <test thread-count="5" name="TestCases(failed)">
+    <parameter name="Firsttext" value="-Text-&gt;"/>
+    <parameter name="Secondtext" value="-Appended-&gt;"/>
+    <parameter name="emailid" value="as198184@gmail.com"/>
+    <groups>
+      <run>
+        <include name="Edit"/>
+      </run>
+    </groups>
     <classes>
       <class name="TestCases.EditPage_Test">
         <methods>
           <include name="Navi_ClickEdit"/>
-          <include name="quitDriver"/>
+          <include name="test03_GetText"/>
+          <include name="test01_EmailAddress"/>
           <include name="test04_ClearMe"/>
-          <include name="InitDriver"/>
-          <include name="LaunchAppURL"/>
+          <include name="test02_AppendText"/>
         </methods>
       </class> <!-- TestCases.EditPage_Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [TestLeafSuite] -->

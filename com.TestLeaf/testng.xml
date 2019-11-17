@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestLeafSuite">
+	<test name="TestCases">
+		<parameter name="emailid" value="as198184@gmail.com" />
+		<parameter name="Firsttext" value="-Text->" />
+		<parameter name="Secondtext" value="-Appended->" />
+		<groups>
+			<run>
+				<include name="Edit" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.EditPage_Test" />
+		</classes>
+	</test>
+	<test name ="Check Test">
+	<groups>
+	<run>
+	<include name="Check"/>
+	</run>
+	</groups>
+	<classes>
+	<class name="TestCases.EditPage_Test"/>
+	</classes>
+	</test>
+</suite>
