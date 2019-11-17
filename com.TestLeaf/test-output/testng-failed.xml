@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.FirstTest">
+      <class name="TestCases.EditPage_Test">
         <methods>
-          <include name="ClickEdit"/>
+          <include name="Navi_ClickEdit"/>
           <include name="quitDriver"/>
+          <include name="test04_ClearMe"/>
           <include name="InitDriver"/>
           <include name="LaunchAppURL"/>
         </methods>
-      </class> <!-- TestCases.FirstTest -->
+      </class> <!-- TestCases.EditPage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

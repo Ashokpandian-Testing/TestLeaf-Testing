@@ -29,7 +29,7 @@ public class TestBase {
 		}
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://www.leafground.com/home.html");
+		//driver.get("http://www.leafground.com/home.html");
 		return driver;
 		
 	}
@@ -50,9 +50,10 @@ public class TestBase {
 		return temp;
 	}
 	
-	@BeforeMethod
+	@BeforeTest
 	public static void LaunchAppURL() {
 		driver.get("http://www.leafground.com/home.html");
+		driver.manage().window().maximize();
 	}
 	
 	

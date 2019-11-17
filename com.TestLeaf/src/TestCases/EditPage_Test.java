@@ -1,6 +1,7 @@
 package TestCases;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Pages.EditPage;
@@ -43,6 +44,7 @@ public class EditPage_Test extends TestBase {
   public void test04_ClearMe() {	 
 	  PageFactory.initElements(driver, EditPage.class);
 	  EditPage.ClearMe.clear();
+//	  Assert.assertFalse(true);
   }
   @Test(priority=5,dependsOnMethods= {"Navi_ClickEdit"})
   public void test05_DisabledCheck() {	 
