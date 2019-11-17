@@ -1,6 +1,9 @@
 package Pages;
 
 import org.testng.annotations.Test;
+
+import TestCases.TestBase;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
