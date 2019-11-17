@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1534" started-at="2019-11-15T01:38:58Z" finished-at="2019-11-15T01:39:00Z">
+  <suite name="Default suite" duration-ms="874" started-at="2019-11-17T04:53:22Z" finished-at="2019-11-17T04:53:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1534" started-at="2019-11-15T01:38:58Z" finished-at="2019-11-15T01:39:00Z">
+    <test name="Default test" duration-ms="874" started-at="2019-11-17T04:53:22Z" finished-at="2019-11-17T04:53:23Z">
       <class name="TestCases.FirstTest">
-        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="InitDriver" is-config="true" duration-ms="16230" started-at="2019-11-15T01:38:42Z" finished-at="2019-11-15T01:38:58Z">
+        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="InitDriver" is-config="true" duration-ms="16692" started-at="2019-11-17T04:53:05Z" finished-at="2019-11-17T04:53:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitDriver -->
-        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="LaunchAppURL" is-config="true" duration-ms="324" started-at="2019-11-15T01:38:58Z" finished-at="2019-11-15T01:38:59Z">
+        <test-method status="PASS" signature="LaunchAppURL()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="LaunchAppURL" is-config="true" duration-ms="257" started-at="2019-11-17T04:53:22Z" finished-at="2019-11-17T04:53:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="ClickEdit()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="ClickEdit" duration-ms="1178" started-at="2019-11-15T01:38:59Z" finished-at="2019-11-15T01:39:00Z">
+        <test-method status="PASS" signature="ClickEdit()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="ClickEdit" duration-ms="594" started-at="2019-11-17T04:53:22Z" finished-at="2019-11-17T04:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickEdit -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="quitDriver" is-config="true" duration-ms="1276" started-at="2019-11-15T01:39:00Z" finished-at="2019-11-15T01:39:01Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.FirstTest@59e5ddf]" name="quitDriver" is-config="true" duration-ms="1029" started-at="2019-11-17T04:53:23Z" finished-at="2019-11-17T04:53:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
