@@ -32,6 +32,9 @@ public class HomePage {
 //		
 //		return element;
 //}
+  
+  @FindBy(xpath="//img[@alt='Buttons']")
+  public static WebElement Button;
 	
 	
 }

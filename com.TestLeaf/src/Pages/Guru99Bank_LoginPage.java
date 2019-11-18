@@ -25,6 +25,6 @@ public class Guru99Bank_LoginPage {
 	public static WebElement managerhomepage;
 	
 	
-	
+	public static String LandingPageURL = "http://demo.guru99.com/V1/html/Managerhomepage.php";
 
 }

@@ -9,6 +9,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Properties;
 import java.util.concurrent.*;
+
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -50,7 +52,7 @@ public class TestBase {
 		return temp;
 	}
 	
-	@BeforeTest(alwaysRun=true)
+	@BeforeClass(alwaysRun=true)
 	@Parameters({"Application"})
 	public static void LaunchAppURL(@Optional("TestLeaf") String Key) {
 		
@@ -65,7 +67,15 @@ public class TestBase {
 	}
 	
 	
-	
+	public static Boolean isAlertPresent() {
+		try{
+			driver.switchTo().alert();
+			return true;
+		}
+		catch(NoAlertPresentException ex) {
+			return false;
+		}
+	}
 	
 	@AfterSuite(alwaysRun=true)
 	public static void  quitDriver() {

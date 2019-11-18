@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [TestLeafSuite]">
-  <test thread-count="5" name="Guru99Bank(failed)">
-    <parameter name="password" value="tAguqEg"/>
-    <parameter name="Application" value="guru99bank"/>
-    <parameter name="username" value="mngr233361"/>
+  <test thread-count="5" name="TestCases(failed)">
+    <parameter name="Firsttext" value="-Text-&gt;"/>
+    <parameter name="Secondtext" value="-Appended-&gt;"/>
+    <parameter name="emailid" value="as198184@gmail.com"/>
+    <groups>
+      <run>
+        <include name="Edit"/>
+        <include name="Button"/>
+      </run>
+    </groups>
     <classes>
-      <class name="TestCases.Guru99Bank_LoginPage_Test">
+      <class name="TestCases.ButtonPage_Test">
         <methods>
           <include name="quitDriver"/>
-          <include name="Login_Guru99Bank_ValidCheck" invocation-numbers="0 1"/>
+          <include name="Test08_GetPosition"/>
+          <include name="Test10_GetSize"/>
+          <include name="Test09_GetColor"/>
           <include name="InitDriver"/>
           <include name="LaunchAppURL"/>
         </methods>
-      </class> <!-- TestCases.Guru99Bank_LoginPage_Test -->
+      </class> <!-- TestCases.ButtonPage_Test -->
     </classes>
-  </test> <!-- Guru99Bank(failed) -->
+  </test> <!-- TestCases(failed) -->
 </suite> <!-- Failed suite [TestLeafSuite] -->

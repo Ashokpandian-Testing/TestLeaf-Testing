@@ -1,38 +1,41 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestLeafSuite">
-<!-- 	<test name="TestCases"> -->
-<!-- 		<parameter name="emailid" value="as198184@gmail.com" /> -->
-<!-- 		<parameter name="Firsttext" value="-Text->" /> -->
-<!-- 		<parameter name="Secondtext" value="-Appended->" /> -->
-<!-- 		<groups> -->
-<!-- 			<run> -->
-<!-- 				<include name="Edit" /> -->
-<!-- 			</run> -->
-<!-- 		</groups> -->
-<!-- 		<classes> -->
-<!-- 			<class name="TestCases.EditPage_Test" /> -->
-<!-- 		</classes> -->
-<!-- 	</test> -->
-<!-- 	<test name ="Check Test"> -->
-<!-- 	<groups> -->
-<!-- 	<run> -->
-<!-- 	<include name="Check"></include> -->
-<!-- 	<exclude name="Edit"/> -->
-<!-- 	</run> -->
-<!-- 	</groups> -->
-<!-- 	<classes> -->
-<!-- 	<class name="TestCases.EditPage_Test"/> -->
-<!-- 	</classes> -->
-<!-- 	</test> -->
-	
-	<test name ="Guru99Bank">
-	<parameter name="Application" value="guru99bank"/>
-	<parameter name="username" value = "mngr233361"/>
-	<parameter name="password" value = "tAguqEg"/>
-	<classes>
-	<class name = "TestCases.Guru99Bank_LoginPage_Test" />
-	</classes>
-	
+	<test name="TestCases">
+		<parameter name="emailid" value="as198184@gmail.com" />
+		<parameter name="Firsttext" value="-Text->" />
+		<parameter name="Secondtext" value="-Appended->" />
+		<groups>
+			<run>
+				<include name="Edit" />
+				<include name="Button" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.ButtonPage_Test" />
+			<class name="TestCases.EditPage_Test" />
+			
+		</classes>
 	</test>
+	<test name ="Check Test">
+	<groups>
+	<run>
+	<include name="Check"/>
+	<exclude name="Edit"/>
+	</run>
+	</groups>
+	<classes>
+	<class name="TestCases.EditPage_Test"/>
+	</classes>
+	</test>
+	
+<!-- 	<test name ="Guru99Bank"> -->
+<!-- 	<parameter name="Application" value="guru99bank"/> -->
+<!-- 	<parameter name="username" value = "mngr233361"/> -->
+<!-- 	<parameter name="password" value = "tAguqEg"/> -->
+<!-- 	<classes> -->
+<!-- 	<class name = "TestCases.Guru99Bank_LoginPage_Test" /> -->
+<!-- 	</classes> -->
+	
+<!-- 	</test> -->
 </suite>
