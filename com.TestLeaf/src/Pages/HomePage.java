@@ -35,6 +35,10 @@ public class HomePage {
   
   @FindBy(xpath="//img[@alt='Buttons']")
   public static WebElement Button;
+  
+  
+  @FindBy(xpath="//img[@alt='Link']")
+  public static WebElement Link;
 	
 	
 }

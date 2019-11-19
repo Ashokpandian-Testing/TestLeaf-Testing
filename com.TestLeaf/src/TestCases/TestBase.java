@@ -1,7 +1,10 @@
 package TestCases;
 
+import org.testng.ITestResult;
 import org.testng.annotations.*;
-
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -10,13 +13,17 @@ import java.io.OutputStream;
 import java.util.Properties;
 import java.util.concurrent.*;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestBase {
+public class TestBase implements ITestListener,IRetryAnalyzer {
 	
 	public static WebDriver driver;
+	public static Logger logger = Logger.getLogger(TestBase.class);
+	
 	
 	
 	
@@ -25,15 +32,12 @@ public class TestBase {
 		
 		if(LoadConfigFile("Browser").equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", LoadConfigFile("ChromeDriverPath"));
-			driver = new ChromeDriver();		
-			
-			
+			driver = new ChromeDriver();								
 		}
-		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		PropertyConfigurator.configure("Log4j.properties");
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//driver.get("http://www.leafground.com/home.html");
-		return driver;
-		
+		return driver;		
 	}
 	
 	public static String LoadConfigFile(String key) throws IOException {
@@ -81,5 +85,57 @@ public class TestBase {
 	public static void  quitDriver() {
 		driver.quit();
 	}
+	
+//	@Override
+//public void onStart(ITestResult args) {
+//	// TODO Auto-generated method stub
+//logger.info("Execution started for : '" +args.getMethod().getMethodName()+"'");
+//}
+//@Override
+//public void onFinish(ITestContext args) {
+//	// TODO Auto-generated method stub
+//	logger.info("Execution started for : '" +args.setAttribute("", value););
+//}
+
+
+@Override
+public void onTestFailure(ITestResult args) {
+	// TODO Auto-generated method stub
+	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Failed");
+}
+
+@Override
+public void onTestSuccess(ITestResult args) {
+	// TODO Auto-generated method stub
+	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Passed");
+}
+
+@Override
+public void onTestSkipped(ITestResult args) {
+	// TODO Auto-generated method stub
+	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Skipped");
+}
+
+
+@Override
+public void onTestStart(ITestResult args) {
+	// TODO Auto-generated method stub
+	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Started");
+	
+}
+
+int RetryCount = 0;
+int MaxRetry = Integer.valueOf(LoadConfigFile("MaxRetry"));
+@Override
+public boolean retry(ITestResult result) {
+	// TODO Auto-generated method stub
+	
+	if(RetryCount < MaxRetry) {
+		RetryCount++;
+		return true;
+	}
+	return false;
+}
+
 
 }

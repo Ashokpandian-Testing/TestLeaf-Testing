@@ -20,10 +20,11 @@ public class EditPage_Test extends TestBase {
 	
 	//,dependsOnMethods= {"Navi_ClickEdit"})
 	
-  @Test(priority=0, groups= {"Edit","Check"})
+  @Test(priority=0, groups= {"Edit","Check","Home"})
   public void Navi_ClickEdit() {	 
 	  PageFactory.initElements(driver, HomePage.class);
 	 HomePage.TextEdit.click();
+	 logger.info("Edit Button Clicked in Home Page - Successful");
   }
   
   @Test(priority=1,dependsOnMethods= {"Navi_ClickEdit"},groups= {"Edit"})
