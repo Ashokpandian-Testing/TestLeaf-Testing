@@ -125,7 +125,7 @@ public void onTestStart(ITestResult args) {
 }
 
 int RetryCount = 0;
-int MaxRetry = Integer.valueOf(LoadConfigFile("MaxRetry"));
+int MaxRetry = 4
 @Override
 public boolean retry(ITestResult result) {
 	// TODO Auto-generated method stub
