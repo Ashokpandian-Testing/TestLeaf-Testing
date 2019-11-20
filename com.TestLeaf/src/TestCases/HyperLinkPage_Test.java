@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import Pages.HomePage;
 import Pages.HyperLink_Page;
-@Listeners(HyperLinkPage_Test.class)
+//@Listeners(HyperLinkPage_Test.class)
 public class HyperLinkPage_Test extends TestBase {
 
 	@Test(priority=0, groups= {"Link","Home"})

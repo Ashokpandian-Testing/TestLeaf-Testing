@@ -97,3 +97,303 @@
 2019-11-19 18:43:06 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
 2019-11-19 18:43:06 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
 2019-11-19 18:43:27 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-19 18:56:17 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-19 18:56:18 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-19 18:56:18 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-19 18:56:18 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-19 18:56:18 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-19 18:56:18 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-19 18:56:18 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-19 18:56:19 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-19 18:56:19 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-19 18:56:20 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-19 18:56:23 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-19 18:56:23 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-19 18:56:24 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-19 18:56:24 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-19 18:56:24 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-19 18:56:24 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-19 18:56:24 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-19 18:56:24 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-19 18:56:45 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-19 18:56:45 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-19 18:56:52 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-19 18:56:52 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-19 18:56:52 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-19 18:56:52 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-19 18:56:52 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed
+2019-11-20 10:56:28 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-20 10:56:29 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-20 10:56:30 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-20 10:56:30 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-20 10:56:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-20 10:56:31 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-20 10:56:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-20 10:56:31 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-20 10:56:31 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-20 10:56:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-20 10:56:32 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-20 10:56:33 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-20 10:56:33 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-20 10:56:33 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-20 10:56:33 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-20 10:56:33 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-20 10:56:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-20 10:56:34 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-20 10:56:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-20 10:56:35 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 10:56:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 10:56:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 10:56:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 10:56:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 10:56:37 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 10:56:37 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-20 10:56:47 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-20 10:56:48 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-20 10:56:48 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-20 10:56:48 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-20 10:56:48 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-20 10:56:51 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-20 10:56:51 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-20 10:56:51 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 10:57:14 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-20 10:57:14 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-20 10:57:23 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-20 10:57:23 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-20 10:57:23 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-20 10:57:24 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-20 10:57:24 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed
+2019-11-20 11:00:37 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-20 11:00:39 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-20 11:00:39 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-20 11:00:39 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-20 11:00:39 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-20 11:00:39 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-20 11:00:39 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-20 11:00:40 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-20 11:00:40 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-20 11:00:40 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-20 11:00:40 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-20 11:00:40 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-20 11:00:40 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-20 11:00:41 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-20 11:00:41 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-20 11:00:41 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-20 11:00:42 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-20 11:00:42 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-20 11:00:42 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-20 11:00:43 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-20 11:00:43 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-20 11:00:44 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-20 11:00:44 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-20 11:00:44 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-20 11:00:44 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:00:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:00:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:00:46 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:00:46 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:00:47 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:00:47 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-20 11:00:57 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-20 11:00:58 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-20 11:00:58 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-20 11:00:58 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-20 11:00:58 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-20 11:01:01 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-20 11:01:02 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-20 11:01:02 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:01:24 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-20 11:01:24 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-20 11:01:32 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-20 11:01:32 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-20 11:01:32 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-20 11:01:34 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-20 11:01:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed
+2019-11-20 11:13:29 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-20 11:13:29 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-20 11:13:29 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-20 11:13:29 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-20 11:13:29 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-20 11:13:29 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-20 11:13:29 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-20 11:13:30 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-20 11:13:30 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-20 11:13:30 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-20 11:13:30 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-20 11:13:30 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 11:13:31 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-20 11:13:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-20 11:13:34 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-20 11:13:35 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-20 11:13:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-20 11:13:35 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-20 11:13:35 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-20 11:13:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-20 11:13:35 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:13:56 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 11:13:56 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:14:17 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 11:14:17 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:14:38 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 11:14:38 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:14:59 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 11:14:59 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 11:15:20 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-20 11:15:20 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-20 11:15:27 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-20 11:15:27 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-20 11:15:27 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-20 11:15:27 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-20 11:15:27 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-20 12:08:34 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-20 12:08:34 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-20 12:08:34 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-20 12:08:34 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-20 12:08:35 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-20 12:08:35 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-20 12:08:35 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-20 12:08:35 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:08:36 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-20 12:08:39 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-20 12:08:40 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-20 12:08:40 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-20 12:08:40 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-20 12:08:40 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-20 12:08:40 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-20 12:08:40 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-20 12:08:40 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:09:01 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:09:01 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:09:22 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:09:22 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:09:43 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:09:43 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:10:04 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:10:04 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:10:26 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-20 12:10:26 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-20 12:10:33 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-20 12:10:33 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-20 12:10:33 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-20 12:10:33 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-20 12:10:33 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickButton' Started
+2019-11-20 12:39:43 INFO  TestCases.TestBase Navi_ClickButton: Button Button Clicked in Home Page - Successful
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickButton' Passed
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestStart: Test Case - 'Test10_GetSize' Started
+2019-11-20 12:39:43 INFO  TestCases.TestBase Test10_GetSize: Button Height : 20 & Button Weight : 122
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test10_GetSize' Passed
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestStart: Test Case - 'Test08_GetPosition' Started
+2019-11-20 12:39:43 INFO  TestCases.TestBase Test08_GetPosition: Button X Axis : 240 & Button Y Axis : 304
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test08_GetPosition' Passed
+2019-11-20 12:39:43 INFO  TestCases.TestBase onTestStart: Test Case - 'Test09_GetColor' Started
+2019-11-20 12:39:44 INFO  TestCases.TestBase Test09_GetColor: Button Color : rgba(144, 238, 144, 1)
+2019-11-20 12:39:44 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test09_GetColor' Passed
+2019-11-20 12:39:44 INFO  TestCases.TestBase onTestStart: Test Case - 'Test07_CheckGotoHomeButton' Started
+2019-11-20 12:39:44 INFO  TestCases.TestBase Test07_CheckGotoHomeButton: Goto Home Button Was Pressed
+2019-11-20 12:39:44 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test07_CheckGotoHomeButton' Passed
+2019-11-20 12:39:44 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickEdit' Started
+2019-11-20 12:39:45 INFO  TestCases.TestBase Navi_ClickEdit: Edit Button Clicked in Home Page - Successful
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickEdit' Passed
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test01_EmailAddress' Started
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test01_EmailAddress' Passed
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test02_AppendText' Started
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test02_AppendText' Passed
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test03_GetText' Started
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test03_GetText' Passed
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:39:45 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:39:46 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:39:46 INFO  TestCases.TestBase onTestStart: Test Case - 'test04_ClearMe' Started
+2019-11-20 12:39:46 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test04_ClearMe' Passed
+2019-11-20 12:39:46 INFO  TestCases.TestBase onTestStart: Test Case - 'test05_DisabledCheck' Started
+2019-11-20 12:39:49 INFO  TestCases.TestBase onTestSuccess: Test Case - 'test05_DisabledCheck' Passed
+2019-11-20 12:39:49 INFO  TestCases.TestBase onTestStart: Test Case - 'Navi_ClickLink' Started
+2019-11-20 12:39:50 INFO  TestCases.TestBase Navi_ClickLink: Link Button Clicked in Home Page - Successful
+2019-11-20 12:39:50 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Navi_ClickLink' Passed
+2019-11-20 12:39:50 INFO  TestCases.TestBase onTestStart: Test Case - 'Test11_FindDestination' Started
+2019-11-20 12:39:50 INFO  TestCases.TestBase Test11_FindDestination: http://www.leafground.com/pages/Button.html
+2019-11-20 12:39:50 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test11_FindDestination' Passed
+2019-11-20 12:39:50 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:40:11 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:40:11 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:40:32 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:40:32 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:40:53 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:40:53 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:41:14 INFO  TestCases.TestBase onTestSkipped: Test Case - 'Test12_VerifyBrokenLink' Skipped
+2019-11-20 12:41:14 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_VerifyBrokenLink' Started
+2019-11-20 12:41:35 INFO  TestCases.TestBase onTestFailure: Test Case - 'Test12_VerifyBrokenLink' Failed
+2019-11-20 12:41:35 INFO  TestCases.TestBase onTestStart: Test Case - 'Test12_GotoHomePage1' Started
+2019-11-20 12:41:42 INFO  TestCases.TestBase Test12_GotoHomePage1: Pressed same link
+2019-11-20 12:41:42 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test12_GotoHomePage1' Passed
+2019-11-20 12:41:42 INFO  TestCases.TestBase onTestStart: Test Case - 'Test14_CountLink' Started
+2019-11-20 12:41:42 INFO  TestCases.TestBase Test14_CountLink: Link Count is : 28
+2019-11-20 12:41:42 INFO  TestCases.TestBase onTestSuccess: Test Case - 'Test14_CountLink' Passed

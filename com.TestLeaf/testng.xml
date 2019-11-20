@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestLeafSuite">
-<!-- <listeners> -->
-<!-- <listener class-name="TestCases.TestBase"/> -->
-<!-- </listeners> -->
+<listeners>
+<listener class-name="TestCases.TestBase"/>
+</listeners>
 	<test name="TestCases">
 		<parameter name="emailid" value="as198184@gmail.com" />
 		<parameter name="Firsttext" value="-Text->" />

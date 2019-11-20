@@ -2,6 +2,7 @@ package TestCases;
 
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -10,6 +11,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.util.Properties;
 import java.util.concurrent.*;
 
@@ -19,12 +22,13 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestBase implements ITestListener,IRetryAnalyzer {
+public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransformer {
 	
 	public static WebDriver driver;
 	public static Logger logger = Logger.getLogger(TestBase.class);
 	
-	
+	int RetryCount = 0;
+	int MaxRetry = 4;
 	
 	
 	@BeforeSuite(alwaysRun=true)
@@ -124,17 +128,24 @@ public void onTestStart(ITestResult args) {
 	
 }
 
-int RetryCount = 0;
-int MaxRetry = 4
 @Override
 public boolean retry(ITestResult result) {
 	// TODO Auto-generated method stub
 	
 	if(RetryCount < MaxRetry) {
 		RetryCount++;
+		System.out.println("RetryCount");
 		return true;
+		
 	}
 	return false;
+}
+
+
+@Override
+public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+	// TODO Auto-generated method stub
+	annotation.setRetryAnalyzer(TestBase.class);
 }
 
 
