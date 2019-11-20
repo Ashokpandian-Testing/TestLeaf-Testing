@@ -2,6 +2,13 @@ package TestCases;
 
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+
 import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestContext;
@@ -26,6 +33,10 @@ public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransf
 	
 	public static WebDriver driver;
 	public static Logger logger = Logger.getLogger(TestBase.class);
+	public static ExtentReports extentreport;
+	public static ExtentHtmlReporter htmlreporter;	
+	public static ExtentTest ExtentLog;
+	
 	
 	int RetryCount = 0;
 	int MaxRetry = 4;
@@ -33,6 +44,10 @@ public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransf
 	
 	@BeforeSuite(alwaysRun=true)
 	public static WebDriver InitDriver() throws IOException {	
+
+		extentreport = new ExtentReports();
+		htmlreporter = new ExtentHtmlReporter("ExtentReport.html");
+		extentreport.attachReporter(htmlreporter);
 		
 		if(LoadConfigFile("Browser").equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", LoadConfigFile("ChromeDriverPath"));
