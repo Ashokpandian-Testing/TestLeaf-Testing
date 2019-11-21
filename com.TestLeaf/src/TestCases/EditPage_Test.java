@@ -24,7 +24,7 @@ public class EditPage_Test extends TestBase {
   public void Navi_ClickEdit() {	 
 	  PageFactory.initElements(driver, HomePage.class);
 	 HomePage.TextEdit.click();
-	 logger.info("Edit Button Clicked in Home Page - Successful");
+	 //logger.info("Edit Button Clicked in Home Page - Successful");
   }
   
   @Test(priority=1,dependsOnMethods= {"Navi_ClickEdit"},groups= {"Edit"})

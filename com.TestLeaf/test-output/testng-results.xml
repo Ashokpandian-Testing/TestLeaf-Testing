@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="4" retried="4" total="26" passed="17">
+<testng-results skipped="0" failed="0" ignored="4" total="22" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="TestLeafSuite" duration-ms="124128" started-at="2019-11-20T12:39:38 IST" finished-at="2019-11-20T12:41:42 IST">
+  <suite name="TestLeafSuite" duration-ms="17582" started-at="2019-11-21T18:14:04 IST" finished-at="2019-11-21T18:14:21 IST">
     <groups>
       <group name="Button">
-        <method signature="ButtonPage_Test.Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Navi_ClickButton" class="TestCases.ButtonPage_Test"/>
-        <method signature="ButtonPage_Test.Test07_CheckGotoHomeButton()[pri:4, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test07_CheckGotoHomeButton" class="TestCases.ButtonPage_Test"/>
-        <method signature="ButtonPage_Test.Test08_GetPosition()[pri:2, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test08_GetPosition" class="TestCases.ButtonPage_Test"/>
-        <method signature="ButtonPage_Test.Test09_GetColor()[pri:3, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test09_GetColor" class="TestCases.ButtonPage_Test"/>
-        <method signature="ButtonPage_Test.Test10_GetSize()[pri:1, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test10_GetSize" class="TestCases.ButtonPage_Test"/>
+        <method signature="ButtonPage_Test.Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="Navi_ClickButton" class="TestCases.ButtonPage_Test"/>
+        <method signature="ButtonPage_Test.Test07_CheckGotoHomeButton()[pri:4, instance:TestCases.ButtonPage_Test@8b87145]" name="Test07_CheckGotoHomeButton" class="TestCases.ButtonPage_Test"/>
+        <method signature="ButtonPage_Test.Test08_GetPosition()[pri:2, instance:TestCases.ButtonPage_Test@8b87145]" name="Test08_GetPosition" class="TestCases.ButtonPage_Test"/>
+        <method signature="ButtonPage_Test.Test09_GetColor()[pri:3, instance:TestCases.ButtonPage_Test@8b87145]" name="Test09_GetColor" class="TestCases.ButtonPage_Test"/>
+        <method signature="ButtonPage_Test.Test10_GetSize()[pri:1, instance:TestCases.ButtonPage_Test@8b87145]" name="Test10_GetSize" class="TestCases.ButtonPage_Test"/>
       </group> <!-- Button -->
       <group name="Check">
-        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@b9afc07]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@b9afc07]" name="test05_DisabledCheck" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@57f23557]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@57f23557]" name="test05_DisabledCheck" class="TestCases.EditPage_Test"/>
       </group> <!-- Check -->
       <group name="Edit">
-        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@b9afc07]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@b9afc07]" name="test01_EmailAddress" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@b9afc07]" name="test02_AppendText" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test03_GetText()[pri:3, instance:TestCases.EditPage_Test@b9afc07]" name="test03_GetText" class="TestCases.EditPage_Test"/>
-        <method signature="EditPage_Test.test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@b9afc07]" name="test04_ClearMe" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@57f23557]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@57f23557]" name="test01_EmailAddress" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@57f23557]" name="test02_AppendText" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.test03_GetText()[pri:3, instance:TestCases.EditPage_Test@57f23557]" name="test03_GetText" class="TestCases.EditPage_Test"/>
+        <method signature="EditPage_Test.test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@57f23557]" name="test04_ClearMe" class="TestCases.EditPage_Test"/>
       </group> <!-- Edit -->
       <group name="Home">
-        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@b9afc07]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
-        <method signature="HyperLinkPage_Test.Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@382db087]" name="Navi_ClickLink" class="TestCases.HyperLinkPage_Test"/>
-        <method signature="ButtonPage_Test.Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Navi_ClickButton" class="TestCases.ButtonPage_Test"/>
+        <method signature="EditPage_Test.Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@57f23557]" name="Navi_ClickEdit" class="TestCases.EditPage_Test"/>
+        <method signature="HyperLinkPage_Test.Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Navi_ClickLink" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="ButtonPage_Test.Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="Navi_ClickButton" class="TestCases.ButtonPage_Test"/>
       </group> <!-- Home -->
       <group name="Link">
-        <method signature="HyperLinkPage_Test.Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@382db087]" name="Navi_ClickLink" class="TestCases.HyperLinkPage_Test"/>
-        <method signature="HyperLinkPage_Test.Test11_FindDestination()[pri:1, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test11_FindDestination" class="TestCases.HyperLinkPage_Test"/>
-        <method signature="HyperLinkPage_Test.Test12_GotoHomePage1()[pri:3, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_GotoHomePage1" class="TestCases.HyperLinkPage_Test"/>
-        <method signature="HyperLinkPage_Test.Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" class="TestCases.HyperLinkPage_Test"/>
-        <method signature="HyperLinkPage_Test.Test14_CountLink()[pri:3, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test14_CountLink" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="HyperLinkPage_Test.Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Navi_ClickLink" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="HyperLinkPage_Test.Test11_FindDestination()[pri:1, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test11_FindDestination" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="HyperLinkPage_Test.Test12_GotoHomePage1()[pri:3, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test12_GotoHomePage1" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="HyperLinkPage_Test.Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test12_VerifyBrokenLink" class="TestCases.HyperLinkPage_Test"/>
+        <method signature="HyperLinkPage_Test.Test14_CountLink()[pri:4, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test14_CountLink" class="TestCases.HyperLinkPage_Test"/>
       </group> <!-- Link -->
     </groups>
-    <test name="TestCases" duration-ms="124128" started-at="2019-11-20T12:39:38 IST" finished-at="2019-11-20T12:41:42 IST">
+    <test name="TestCases" duration-ms="17582" started-at="2019-11-21T18:14:04 IST" finished-at="2019-11-21T18:14:21 IST">
       <class name="TestCases.HyperLinkPage_Test">
-        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.HyperLinkPage_Test@382db087]" name="LaunchAppURL" is-config="true" duration-ms="252" started-at="2019-11-20T12:39:49 IST" finished-at="2019-11-20T12:39:49 IST">
+        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="LaunchAppURL" is-config="true" duration-ms="234" started-at="2019-11-21T18:14:13 IST" finished-at="2019-11-21T18:14:13 IST">
           <params>
             <param index="0">
               <value>
@@ -48,334 +48,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@382db087]" name="Navi_ClickLink" duration-ms="553" started-at="2019-11-20T12:39:49 IST" finished-at="2019-11-20T12:39:50 IST">
+        <test-method status="PASS" signature="Navi_ClickLink()[pri:0, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Navi_ClickLink" duration-ms="386" started-at="2019-11-21T18:14:13 IST" finished-at="2019-11-21T18:14:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navi_ClickLink -->
-        <test-method status="PASS" signature="Test11_FindDestination()[pri:1, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test11_FindDestination" duration-ms="74" started-at="2019-11-20T12:39:50 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:39:50 IST">
+        <test-method status="PASS" signature="Test11_FindDestination()[pri:1, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test11_FindDestination" duration-ms="81" started-at="2019-11-21T18:14:13 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-21T18:14:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test11_FindDestination -->
-        <test-method status="SKIP" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" duration-ms="21076" retried="true" started-at="2019-11-20T12:39:50 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:40:11 IST">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection timed out: connect]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection timed out: connect
-at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.<init>(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
-at TestCases.HyperLinkPage_Test.Test12_VerifyBrokenLink(HyperLinkPage_Test.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
+        <test-method status="PASS" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test12_VerifyBrokenLink" duration-ms="402" started-at="2019-11-21T18:14:14 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-21T18:14:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test12_VerifyBrokenLink -->
-        <test-method status="SKIP" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" duration-ms="21064" retried="true" started-at="2019-11-20T12:40:11 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:40:32 IST">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection timed out: connect]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection timed out: connect
-at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.<init>(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
-at TestCases.HyperLinkPage_Test.Test12_VerifyBrokenLink(HyperLinkPage_Test.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test12_VerifyBrokenLink -->
-        <test-method status="SKIP" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" duration-ms="21048" retried="true" started-at="2019-11-20T12:40:32 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:40:53 IST">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection timed out: connect]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection timed out: connect
-at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.<init>(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
-at TestCases.HyperLinkPage_Test.Test12_VerifyBrokenLink(HyperLinkPage_Test.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test12_VerifyBrokenLink -->
-        <test-method status="SKIP" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" duration-ms="21055" retried="true" started-at="2019-11-20T12:40:53 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:41:14 IST">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection timed out: connect]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection timed out: connect
-at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.<init>(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
-at TestCases.HyperLinkPage_Test.Test12_VerifyBrokenLink(HyperLinkPage_Test.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test12_VerifyBrokenLink -->
-        <test-method status="FAIL" signature="Test12_VerifyBrokenLink()[pri:2, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_VerifyBrokenLink" duration-ms="21041" started-at="2019-11-20T12:41:14 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:41:35 IST">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection timed out: connect]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection timed out: connect
-at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-at java.net.PlainSocketImpl.connect(Unknown Source)
-at java.net.SocksSocketImpl.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at java.net.Socket.connect(Unknown Source)
-at sun.net.NetworkClient.doConnect(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.openServer(Unknown Source)
-at sun.net.www.http.HttpClient.<init>(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.http.HttpClient.New(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
-at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
-at TestCases.HyperLinkPage_Test.Test12_VerifyBrokenLink(HyperLinkPage_Test.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test12_VerifyBrokenLink -->
-        <test-method status="PASS" signature="Test12_GotoHomePage1()[pri:3, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test12_GotoHomePage1" duration-ms="7253" started-at="2019-11-20T12:41:35 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:41:42 IST">
+        <test-method status="PASS" signature="Test12_GotoHomePage1()[pri:3, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test12_GotoHomePage1" duration-ms="7005" started-at="2019-11-21T18:14:14 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-21T18:14:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test12_GotoHomePage1 -->
-        <test-method status="PASS" signature="Test14_CountLink()[pri:3, instance:TestCases.HyperLinkPage_Test@382db087]" name="Test14_CountLink" duration-ms="123" started-at="2019-11-20T12:41:42 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-20T12:41:42 IST">
+        <test-method status="PASS" signature="Test14_CountLink()[pri:4, instance:TestCases.HyperLinkPage_Test@3d0f8e03]" name="Test14_CountLink" duration-ms="135" started-at="2019-11-21T18:14:21 IST" depends-on-methods="TestCases.HyperLinkPage_Test.Navi_ClickLink" finished-at="2019-11-21T18:14:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test14_CountLink -->
       </class> <!-- TestCases.HyperLinkPage_Test -->
       <class name="TestCases.ButtonPage_Test">
-        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="InitDriver" is-config="true" duration-ms="8900" started-at="2019-11-20T12:39:29 IST" finished-at="2019-11-20T12:39:38 IST">
+        <test-method status="PASS" signature="InitDriver()[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="InitDriver" is-config="true" duration-ms="9235" started-at="2019-11-21T18:13:54 IST" finished-at="2019-11-21T18:14:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitDriver -->
-        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="LaunchAppURL" is-config="true" duration-ms="4407" started-at="2019-11-20T12:39:38 IST" finished-at="2019-11-20T12:39:43 IST">
+        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="LaunchAppURL" is-config="true" duration-ms="3638" started-at="2019-11-21T18:14:04 IST" finished-at="2019-11-21T18:14:07 IST">
           <params>
             <param index="0">
               <value>
@@ -386,33 +85,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Navi_ClickButton" duration-ms="642" started-at="2019-11-20T12:39:43 IST" finished-at="2019-11-20T12:39:43 IST">
+        <test-method status="PASS" signature="Navi_ClickButton()[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="Navi_ClickButton" duration-ms="711" started-at="2019-11-21T18:14:07 IST" finished-at="2019-11-21T18:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navi_ClickButton -->
-        <test-method status="PASS" signature="Test10_GetSize()[pri:1, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test10_GetSize" duration-ms="77" started-at="2019-11-20T12:39:43 IST" finished-at="2019-11-20T12:39:43 IST">
+        <test-method status="PASS" signature="Test10_GetSize()[pri:1, instance:TestCases.ButtonPage_Test@8b87145]" name="Test10_GetSize" duration-ms="65" started-at="2019-11-21T18:14:08 IST" finished-at="2019-11-21T18:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10_GetSize -->
-        <test-method status="PASS" signature="Test08_GetPosition()[pri:2, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test08_GetPosition" duration-ms="62" started-at="2019-11-20T12:39:43 IST" finished-at="2019-11-20T12:39:43 IST">
+        <test-method status="PASS" signature="Test08_GetPosition()[pri:2, instance:TestCases.ButtonPage_Test@8b87145]" name="Test08_GetPosition" duration-ms="71" started-at="2019-11-21T18:14:08 IST" finished-at="2019-11-21T18:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08_GetPosition -->
-        <test-method status="PASS" signature="Test09_GetColor()[pri:3, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test09_GetColor" duration-ms="92" started-at="2019-11-20T12:39:43 IST" finished-at="2019-11-20T12:39:44 IST">
+        <test-method status="PASS" signature="Test09_GetColor()[pri:3, instance:TestCases.ButtonPage_Test@8b87145]" name="Test09_GetColor" duration-ms="42" started-at="2019-11-21T18:14:08 IST" finished-at="2019-11-21T18:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test09_GetColor -->
-        <test-method status="PASS" signature="Test07_CheckGotoHomeButton()[pri:4, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="Test07_CheckGotoHomeButton" duration-ms="548" started-at="2019-11-20T12:39:44 IST" finished-at="2019-11-20T12:39:44 IST">
+        <test-method status="PASS" signature="Test07_CheckGotoHomeButton()[pri:4, instance:TestCases.ButtonPage_Test@8b87145]" name="Test07_CheckGotoHomeButton" duration-ms="270" started-at="2019-11-21T18:14:08 IST" finished-at="2019-11-21T18:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07_CheckGotoHomeButton -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.ButtonPage_Test@4bb4de6a]" name="quitDriver" is-config="true" duration-ms="1180" started-at="2019-11-20T12:41:43 IST" finished-at="2019-11-20T12:41:44 IST">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.ButtonPage_Test@8b87145]" name="quitDriver" is-config="true" duration-ms="1738" started-at="2019-11-21T18:14:21 IST" finished-at="2019-11-21T18:14:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- TestCases.ButtonPage_Test -->
       <class name="TestCases.EditPage_Test">
-        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.EditPage_Test@b9afc07]" name="LaunchAppURL" is-config="true" duration-ms="237" started-at="2019-11-20T12:39:44 IST" finished-at="2019-11-20T12:39:44 IST">
+        <test-method status="PASS" signature="LaunchAppURL(java.lang.String)[pri:0, instance:TestCases.EditPage_Test@57f23557]" name="LaunchAppURL" is-config="true" duration-ms="176" started-at="2019-11-21T18:14:08 IST" finished-at="2019-11-21T18:14:09 IST">
           <params>
             <param index="0">
               <value>
@@ -423,11 +122,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAppURL -->
-        <test-method status="PASS" signature="Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@b9afc07]" name="Navi_ClickEdit" duration-ms="519" started-at="2019-11-20T12:39:44 IST" finished-at="2019-11-20T12:39:45 IST">
+        <test-method status="PASS" signature="Navi_ClickEdit()[pri:0, instance:TestCases.EditPage_Test@57f23557]" name="Navi_ClickEdit" duration-ms="317" started-at="2019-11-21T18:14:09 IST" finished-at="2019-11-21T18:14:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navi_ClickEdit -->
-        <test-method status="PASS" signature="test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@b9afc07]" name="test01_EmailAddress" duration-ms="179" started-at="2019-11-20T12:39:45 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:45 IST">
+        <test-method status="PASS" signature="test01_EmailAddress(java.lang.String)[pri:1, instance:TestCases.EditPage_Test@57f23557]" name="test01_EmailAddress" duration-ms="193" started-at="2019-11-21T18:14:09 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:09 IST">
           <params>
             <param index="0">
               <value>
@@ -438,7 +137,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01_EmailAddress -->
-        <test-method status="PASS" signature="test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@b9afc07]" name="test02_AppendText" duration-ms="193" started-at="2019-11-20T12:39:45 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:45 IST">
+        <test-method status="PASS" signature="test02_AppendText(java.lang.String, java.lang.String)[pri:2, instance:TestCases.EditPage_Test@57f23557]" name="test02_AppendText" duration-ms="196" started-at="2019-11-21T18:14:09 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:09 IST">
           <params>
             <param index="0">
               <value>
@@ -454,11 +153,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02_AppendText -->
-        <test-method status="PASS" signature="test03_GetText()[pri:3, instance:TestCases.EditPage_Test@b9afc07]" name="test03_GetText" duration-ms="49" started-at="2019-11-20T12:39:45 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:45 IST">
+        <test-method status="PASS" signature="test03_GetText()[pri:3, instance:TestCases.EditPage_Test@57f23557]" name="test03_GetText" duration-ms="47" started-at="2019-11-21T18:14:09 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03_GetText -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@b9afc07]" name="test04_ClearMe" duration-ms="153" started-at="2019-11-20T12:39:45 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:45 IST">
+        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@57f23557]" name="test04_ClearMe" duration-ms="153" started-at="2019-11-21T18:14:09 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:09 IST">
           <params>
             <param index="0">
               <value>
@@ -469,7 +168,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_ClearMe -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@b9afc07]" name="test04_ClearMe" duration-ms="126" started-at="2019-11-20T12:39:45 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:46 IST">
+        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@57f23557]" name="test04_ClearMe" duration-ms="127" started-at="2019-11-21T18:14:09 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:10 IST">
           <params>
             <param index="0">
               <value>
@@ -480,7 +179,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_ClearMe -->
-        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@b9afc07]" name="test04_ClearMe" duration-ms="117" started-at="2019-11-20T12:39:46 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:46 IST">
+        <test-method status="PASS" signature="test04_ClearMe(java.lang.String)[pri:4, instance:TestCases.EditPage_Test@57f23557]" name="test04_ClearMe" duration-ms="124" started-at="2019-11-21T18:14:10 IST" data-provider="ProvideText" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:10 IST">
           <params>
             <param index="0">
               <value>
@@ -491,7 +190,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_ClearMe -->
-        <test-method status="PASS" signature="test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@b9afc07]" name="test05_DisabledCheck" duration-ms="3092" started-at="2019-11-20T12:39:46 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-20T12:39:49 IST">
+        <test-method status="PASS" signature="test05_DisabledCheck()[pri:5, instance:TestCases.EditPage_Test@57f23557]" name="test05_DisabledCheck" duration-ms="3097" started-at="2019-11-21T18:14:10 IST" depends-on-methods="TestCases.EditPage_Test.Navi_ClickEdit" finished-at="2019-11-21T18:14:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test05_DisabledCheck -->

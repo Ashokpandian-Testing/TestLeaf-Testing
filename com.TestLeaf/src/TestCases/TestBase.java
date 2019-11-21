@@ -7,12 +7,18 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
 import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
+
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -20,23 +26,27 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.*;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransformer {
+public class TestBase implements ITestListener {
 	
 	public static WebDriver driver;
-	public static Logger logger = Logger.getLogger(TestBase.class);
 	public static ExtentReports extentreport;
-	public static ExtentHtmlReporter htmlreporter;	
+	public static ExtentHtmlReporter htmlReporter;	
 	public static ExtentTest ExtentLog;
-	
+	public static Logger logger = Logger.getLogger(TestBase.class);
 	
 	int RetryCount = 0;
 	int MaxRetry = 4;
@@ -44,16 +54,20 @@ public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransf
 	
 	@BeforeSuite(alwaysRun=true)
 	public static WebDriver InitDriver() throws IOException {	
-
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+	
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
 		extentreport = new ExtentReports();
-		htmlreporter = new ExtentHtmlReporter("ExtentReport.html");
-		extentreport.attachReporter(htmlreporter);
+		extentreport.attachReporter(htmlReporter);
+		htmlReporter.config().setReportName("Test Leaf Report on "+dateName);
+		htmlReporter.config().setDocumentTitle("Test Leaf Regression Execution as on "+dateName);
+		
 		
 		if(LoadConfigFile("Browser").equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", LoadConfigFile("ChromeDriverPath"));
 			driver = new ChromeDriver();								
 		}
-		PropertyConfigurator.configure("Log4j.properties");
+			PropertyConfigurator.configure("Log4j.properties");
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//driver.get("http://www.leafground.com/home.html");
 		return driver;		
@@ -103,65 +117,77 @@ public class TestBase implements ITestListener,IRetryAnalyzer, IAnnotationTransf
 	@AfterSuite(alwaysRun=true)
 	public static void  quitDriver() {
 		driver.quit();
+		extentreport.flush();
 	}
 	
-//	@Override
-//public void onStart(ITestResult args) {
-//	// TODO Auto-generated method stub
-//logger.info("Execution started for : '" +args.getMethod().getMethodName()+"'");
-//}
+	public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		// after execution, you could see a folder "FailedTestsScreenshots" under src folder
+		String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
+		File finalDestination = new File(destination);
+		FileUtils.copyFile(source, finalDestination);
+		return destination;
+	}
+	
+////	@Override
+////public void onStart(ITestResult args) {
+////	// TODO Auto-generated method stub
+////logger.info("Execution started for : '" +args.getMethod().getMethodName()+"'");
+////}
+////@Override
+////public void onFinish(ITestContext args) {
+////	// TODO Auto-generated method stub
+////	logger.info("Execution started for : '" +args.setAttribute("", value););
+////}
+//
+//
 //@Override
-//public void onFinish(ITestContext args) {
+//public void onTestFailure(ITestResult args) {
 //	// TODO Auto-generated method stub
-//	logger.info("Execution started for : '" +args.setAttribute("", value););
+//	//logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Failed");
 //}
-
-
-@Override
-public void onTestFailure(ITestResult args) {
-	// TODO Auto-generated method stub
-	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Failed");
-}
-
-@Override
-public void onTestSuccess(ITestResult args) {
-	// TODO Auto-generated method stub
-	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Passed");
-}
-
-@Override
-public void onTestSkipped(ITestResult args) {
-	// TODO Auto-generated method stub
-	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Skipped");
-}
-
-
-@Override
-public void onTestStart(ITestResult args) {
-	// TODO Auto-generated method stub
-	logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Started");
-	
-}
-
-@Override
-public boolean retry(ITestResult result) {
-	// TODO Auto-generated method stub
-	
-	if(RetryCount < MaxRetry) {
-		RetryCount++;
-		System.out.println("RetryCount");
-		return true;
-		
-	}
-	return false;
-}
-
-
-@Override
-public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
-	// TODO Auto-generated method stub
-	annotation.setRetryAnalyzer(TestBase.class);
-}
+//
+//@Override
+//public void onTestSuccess(ITestResult args) {
+//	// TODO Auto-generated method stub
+//	//logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Passed");
+//}
+//
+//@Override
+//public void onTestSkipped(ITestResult args) {
+//	// TODO Auto-generated method stub
+//	//logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Skipped");
+//}
+//
+//
+//@Override
+//public void onTestStart(ITestResult args) {
+//	// TODO Auto-generated method stub
+//	//logger.info("Test Case - '" +args.getMethod().getMethodName()+"' Started");
+//	
+//}
+//
+////@Override
+////public boolean retry(ITestResult result) {
+////	// TODO Auto-generated method stub
+////	
+////	if(RetryCount < MaxRetry) {
+////		RetryCount++;
+////		System.out.println("RetryCount");
+////		return true;
+////		
+////	}
+////	return false;
+////}
+//
+//
+////@Override
+////public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+////	// TODO Auto-generated method stub
+////	annotation.setRetryAnalyzer(TestBase.class);
+////}
 
 
 }

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <parameter name="password" value="&quot;tAguqEg&quot;"/>
-  <parameter name="username" value="&quot;mngr233361&quot;"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Guru99Bank_LoginPage_Test">
+      <class name="TestCases.HyperLinkPage_Test">
         <methods>
+          <include name="Test11_FindDestination"/>
+          <include name="Test12_GotoHomePage1"/>
           <include name="quitDriver"/>
-          <include name="Login_Guru99Bank_ValidCheck" invocation-numbers="0"/>
+          <include name="Test12_VerifyBrokenLink"/>
+          <include name="Test14_CountLink"/>
+          <include name="Navi_ClickLink"/>
           <include name="InitDriver"/>
           <include name="LaunchAppURL"/>
         </methods>
-      </class> <!-- TestCases.Guru99Bank_LoginPage_Test -->
+      </class> <!-- TestCases.HyperLinkPage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
