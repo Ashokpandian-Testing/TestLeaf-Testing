@@ -13,6 +13,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import Pages.HomePage;
 import Pages.HyperLink_Page;
@@ -21,7 +23,7 @@ public class HyperLinkPage_Test extends TestBase {
 
 	@Test(priority=0, groups= {"Link","Home"})
 	public static void Navi_ClickLink() {
-		extentreport.createTest("Navi_ClickLink");
+		ExtentLog = extentreport.createTest("Navi_ClickLink");
 		PageFactory.initElements(driver, Pages.HomePage.class);	
 		HomePage.Link.click();
 		logger.info("Link Button Clicked in Home Page - Successful");
@@ -31,18 +33,19 @@ public class HyperLinkPage_Test extends TestBase {
 
 	@Test(priority=1, dependsOnMethods= {"Navi_ClickLink"}, groups= {"Link"})
 	public static void Test11_FindDestination() {
-		extentreport.createTest("Test11_FindDestination");
+		ExtentLog = extentreport.createTest("Test11_FindDestination");
 		PageFactory.initElements(driver, HyperLink_Page.class);
 		System.out.println(HyperLink_Page.Find.getAttribute("href"));
-		logger.info(HyperLink_Page.Find.getAttribute("href"));
-		ExtentLog.log(Status.PASS,"Find Destination - Successful");
+		logger.info(HyperLink_Page.Find.getAttribute("href"));		
+		ExtentLog.createNode("HyperLink");
+		ExtentLog.log(Status.PASS,MarkupHelper.createLabel("Find Destination - Successful", ExtentColor.GREEN));
 	}
 
 
 
 	@Test(priority=2, dependsOnMethods= {"Navi_ClickLink"}, groups= {"Link"})
 	public static void Test12_VerifyBrokenLink() throws MalformedURLException, IOException {
-		extentreport.createTest("Test12_VerifyBrokenLink");
+		ExtentLog = extentreport.createTest("Test12_VerifyBrokenLink");
 		PageFactory.initElements(driver, HyperLink_Page.class);	
 		String url = HyperLink_Page.brokenLink.getAttribute("href");
 		System.out.println(url);
@@ -58,7 +61,7 @@ public class HyperLinkPage_Test extends TestBase {
 //		else
 //		{
 //			logger.info("Link is not Broken");
-			ExtentLog.log(Status.FAIL,"VerifyBrokenLink - NOT Successful");
+			ExtentLog.log(Status.FAIL,MarkupHelper.createLabel("VerifyBrokenLink - NOT Successful", ExtentColor.BLUE));
 			ExtentLog.fail("Test Case Failed "+ ExtentLog.addScreenCaptureFromPath(getScreenShot(TestBase.driver,HyperLinkPage_Test.class.getName())));
 			
 //		}
@@ -68,7 +71,7 @@ public class HyperLinkPage_Test extends TestBase {
 
 	@Test(priority=3, dependsOnMethods= {"Navi_ClickLink"}, groups= {"Link"})
 	public static void Test12_GotoHomePage1() throws InterruptedException {
-		extentreport.createTest("Test12_GotoHomePage1");
+		ExtentLog = extentreport.createTest("Test12_GotoHomePage1");
 		PageFactory.initElements(driver, HyperLink_Page.class);	
 		HyperLink_Page.GotoHomePage.click();
 		Thread.sleep(3000);
@@ -88,7 +91,7 @@ public class HyperLinkPage_Test extends TestBase {
 	
 	@Test(priority=4, dependsOnMethods= {"Navi_ClickLink"} , groups= {"Link"})
 	public static void Test14_CountLink() throws InterruptedException {
-		extentreport.createTest("Test14_CountLink");
+		ExtentLog = extentreport.createTest("Test14_CountLink");
 		PageFactory.initElements(driver, HyperLink_Page.class);	
 		System.out.println(HyperLink_Page.LinkCount.size());
 		logger.info("Link Count is : "+HyperLink_Page.LinkCount.size());
